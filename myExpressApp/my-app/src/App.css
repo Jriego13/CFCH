@@ -6,7 +6,38 @@
   height: 40vmin;
   pointer-events: none;
 }
+.Welcome{
+  position: relative;
+  text-align: center;
+  size: 75%;
+}
+.background{
+  height: 900px;
+  background-color: rgb(108, 108, 235);
+}
+.Image {
+  height: 0px;
+  width: 15%;
 
+}
+.Image img{
+  border: 2px solid rgb(216, 112, 112);
+  border-radius: 5px;
+}
+#Title{
+  position: absolute;
+  left: 270px;
+  top: 50px;
+  width: auto;
+  font-size: xx-large;
+}
+#Subtitle{
+  position: absolute;
+  left: 360px;
+  top: 85px;
+  width: auto;
+  font-size: medium;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
