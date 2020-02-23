@@ -2,6 +2,7 @@ import React from 'react'
 import VerticalNav from './VerticalNav'
 import DonationTextContainer from './DonationTextContainer'
 import FluidImage from './FluidImage'
+import StripeCheckOut form './Stripe'
 import { Grid, Image, Menu } from 'semantic-ui-react'
 
 const DoubleGrid = () => (
@@ -13,6 +14,7 @@ const DoubleGrid = () => (
       </Grid.Column>
       <Grid.Column>
         <DonationTextContainer/>
+        <StripeCheckOut/>
       </Grid.Column>
     </Grid.Row>
   </Grid>

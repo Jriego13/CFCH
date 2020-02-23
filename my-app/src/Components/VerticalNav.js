@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Menu } from 'semantic-ui-react'
 
 export default class VerticalNav extends Component {
-  state = { activeItem: 'home' }
+  state = { activeItem: 'donations' }
 
   handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 

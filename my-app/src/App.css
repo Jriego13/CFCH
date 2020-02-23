@@ -37,6 +37,10 @@
   top: 2rem;
 }
 
+.h1 {
+  text-align: center;
+}
+
 .Image {
   height: 0px;
   width: 15%;
